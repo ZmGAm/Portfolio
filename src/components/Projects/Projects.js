@@ -2,13 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.png";
+// import editor from "../../Assets/Projects/codeEditor.png";
+// import chatify from "../../Assets/Projects/chatify.png";
+// import suicide from "../../Assets/Projects/suicide.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
+import faceaging from"../../Assets/Projects/faceaging.png";
+import  inter  from"../../Assets/Projects/intership.png";
+import car from "../../Assets/Projects/carpooling.png";
+import data from "../../Assets/Projects/data_base.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,7 +24,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -52,9 +55,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,9 +66,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,9 +77,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -84,6 +87,64 @@ function Projects() {
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col> */}
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={faceaging}
+              isBlog={false}
+              title="face aging detection"
+              description="AI Age detection web app based on face detection using yolo
+                            model. Which detect user age
+                            By analyzing their features of face like (skin texture or wrinkles or
+                            droopy cheeks and eyelids).
+                            This will work on yolo model which advancement of deep learning
+                            and computer vision.
+                            This will be train given dataset then it can be predicted user image
+                            by specific age group like young or child or middle or old etc.
+                            There are many key steps to accomplish this project like data
+                            collection, splitting this data and testing or training data etc."
+              ghLink="https://drive.google.com/drive/folders/1RKpez-ESAN9wSCcA226W1ddXjCvkfRCo?usp=sharing"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={inter}
+              isBlog={false}
+              title="Internships"
+              description="Six-month internship in IDARA E ARKAM SCHOOL.Data and networking management.
+                            Data synchronization and recovery
+                            Clouding Computing ."
+              // demoLink="https://blogs.soumya-jit.tech/"      
+            />
+          </Col>
+          
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath= {car}
+              isBlog={false}
+              title="FYP(finale year project)"
+              description="Research and implementation of mern stack 
+                            By creating a web app using react and express js with MongoDB data base for sharing our ride for same destination and source to provide cost effective solution.  
+                           This project is designed for use by a car-pooling company that specializes in
+                          providing carpooling services to customers which is coast effective, time
+                          effective and reduce congestion. It is an online peer to peer system that
+                          allows customers to browse available cars, register their profiles, and book
+                          cars or create pools for ride sharing with others."
+              ghLink="https://github.com/ZmGAm/full_Stack.git"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath= {data}
+              isBlog={false}
+              title="Car rental system"
+              description="In this project implement all data base concept like (crud or joins or calculating  some vlues or findeing some etc) using oracale servers .create this project uisng sql including deferent quires like
+              Concatenate relations etc"
+              // ghLink="https://github.com/ZmGAm/full_Stack.git"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
