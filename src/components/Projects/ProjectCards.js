@@ -3,6 +3,11 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { FaBook } from 'react-icons/fa';
+
+// function Header() {
+//   return <h1><FaBook /> FYP Documentation</h1>;
+// }
 
 function ProjectCards(props) {
   return (
@@ -33,6 +38,17 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+         {!props.isBlog && props.fypdoc && (
+          <Button
+            variant="primary"
+            href={props.fypdoc}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <FaBook /> &nbsp;
+            {"FYP Docs"}
           </Button>
         )}
       </Card.Body>

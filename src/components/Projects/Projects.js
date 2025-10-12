@@ -135,6 +135,7 @@ function Projects() {
                           cars or create pools for ride sharing with others."
               ghLink="https://github.com/ZmGAm/full_Stack.git"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              fypdoc="https://drive.google.com/file/d/1nOVOP4oahXqlA7tSZkIF38ANob3r-e7f/view?usp=sharing"    
             />
           </Col>
            <Col md={4} className="project-card">
