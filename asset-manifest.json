@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a22f5ce2.css",
-    "main.js": "/Portfolio/static/js/main.618f46a7.js",
-    "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/Portfolio/static/css/main.2949211d.css",
+    "main.js": "/Portfolio/static/js/main.18d5ca86.js",
+    "static/js/770.074a10a6.chunk.js": "/Portfolio/static/js/770.074a10a6.chunk.js",
+    "static/js/453.6264690d.chunk.js": "/Portfolio/static/js/453.6264690d.chunk.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.0ebb76d36ae99bc7b235.png",
     "static/media/data_base.png": "/Portfolio/static/media/data_base.8a49b3bbd203bc92da46.png",
     "static/media/intership.png": "/Portfolio/static/media/intership.06bfcafd258ebe3bdfb2.png",
     "static/media/carpooling.png": "/Portfolio/static/media/carpooling.77315faca4ce5aa7edbc.png",
     "static/media/faceaging.png": "/Portfolio/static/media/faceaging.2e41af47949de92458c2.png",
     "static/media/zohaib_resume.pdf": "/Portfolio/static/media/zohaib_resume.716a8d83c6192798fb75.pdf",
-    "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.80679caa18eee44e4bc3.png",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
-    "main.a22f5ce2.css.map": "/Portfolio/static/css/main.a22f5ce2.css.map",
-    "main.618f46a7.js.map": "/Portfolio/static/js/main.618f46a7.js.map",
-    "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.2949211d.css.map": "/Portfolio/static/css/main.2949211d.css.map",
+    "main.18d5ca86.js.map": "/Portfolio/static/js/main.18d5ca86.js.map",
+    "770.074a10a6.chunk.js.map": "/Portfolio/static/js/770.074a10a6.chunk.js.map",
+    "453.6264690d.chunk.js.map": "/Portfolio/static/js/453.6264690d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a22f5ce2.css",
-    "static/js/main.618f46a7.js"
+    "static/css/main.2949211d.css",
+    "static/js/main.18d5ca86.js"
   ]
 }
