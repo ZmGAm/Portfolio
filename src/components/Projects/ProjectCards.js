@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { FaBook } from 'react-icons/fa';
+import { SiGoogledrive } from "react-icons/si";
 
 // function Header() {
 //   return <h1><FaBook /> FYP Documentation</h1>;
@@ -49,6 +50,18 @@ function ProjectCards(props) {
           >
             <FaBook /> &nbsp;
             {"FYP Docs"}
+          </Button>
+        )}
+
+          { !props.isBlog && props.aidata && (
+          <Button
+            variant="primary"
+            href={props.aidata}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <SiGoogledrive /> &nbsp;
+            {"Data set"}
           </Button>
         )}
       </Card.Body>

@@ -105,7 +105,8 @@ function Projects() {
                             by specific age group like young or child or middle or old etc.
                             There are many key steps to accomplish this project like data
                             collection, splitting this data and testing or training data etc."
-              ghLink="https://drive.google.com/drive/folders/1RKpez-ESAN9wSCcA226W1ddXjCvkfRCo?usp=sharing"
+              // ghLink="https://drive.google.com/drive/folders/1RKpez-ESAN9wSCcA226W1ddXjCvkfRCo?usp=sharing"
+              aidata="https://drive.google.com/drive/folders/1u9gS6Y1T6m3b0qJTfL1bHfD3p9kCqX3H?usp=sharing"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
@@ -114,7 +115,7 @@ function Projects() {
               imgPath={inter}
               isBlog={false}
               title="Internships"
-              description="Six-month internship in IDARA E ARKAM SCHOOL.Data and networking management.
+              description="Six-month internship in DAR-E-ARQAM SCHOOL.Data and networking management.
                             Data synchronization and recovery
                             Clouding Computing ."
               // demoLink="https://blogs.soumya-jit.tech/"      

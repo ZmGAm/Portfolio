@@ -26,8 +26,8 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download CV
+            <AiOutlineDownload size={20}/>
+            &nbsp;Download Resume
           </Button>
         </Row>
 
@@ -44,8 +44,9 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download CV
+            
+            <AiOutlineDownload size={20} />
+            &nbsp;Download Resume
           </Button>
         </Row>
       </Container>
