@@ -106,7 +106,7 @@ function Projects() {
                             There are many key steps to accomplish this project like data
                             collection, splitting this data and testing or training data etc."
               // ghLink="https://drive.google.com/drive/folders/1RKpez-ESAN9wSCcA226W1ddXjCvkfRCo?usp=sharing"
-              aidata="https://drive.google.com/drive/folders/1u9gS6Y1T6m3b0qJTfL1bHfD3p9kCqX3H?usp=sharing"
+              aidata="https://drive.google.com/drive/folders/1RKpez-ESAN9wSCcA226W1ddXjCvkfRCo?usp=drive_link"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
