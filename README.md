@@ -50,7 +50,7 @@ This project was built using these technologies.
 
 **🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
-**🎬 Lottie  for animation**
+**🎬 Lottie  for animation like laptop and  programming avatar**
 
 **📱 Fully Responsive**
 
