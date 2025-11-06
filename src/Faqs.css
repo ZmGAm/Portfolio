@@ -1,0 +1,63 @@
+/* Make the chat background transparent */
+.bpContainer {
+  background-color: transparent !important;
+  box-shadow: 0.7 !important;
+  border: none !important;
+
+}
+
+/* Transparent header */
+.bpHeaderContainer {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+/* Transparent message bubbles */
+.bpMessageBlocksBubble {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: none !important;
+color: #ffffff !important; 
+}
+
+/* Transparent composer */
+.bpComposerContainer {
+  background-color: transparent !important;
+  border-top: none !important;
+}
+
+/* Transparent input field */
+.bpComposerInput {
+  background-color: transparent !important;
+  color: #000 !important;
+  /* border: 1px solid #ccc !important; */
+}
+/* Change message text color */
+.bpMessageBlocksTextText {
+  color: #ffffff !important; /* white text */
+}
+.bpMessageBlocksTexListItem {
+  color: #ffffff !important; /* white text */
+}
+
+/* Change composer input text color */
+.bpComposerInput {
+  color: #ffffff !important;
+}
+
+/* Change header title text color */
+.bpHeaderContentTitle {
+  color: #ffffff !important;
+}
+
+/* Change button text color */
+.bpComposerSendButton {
+  color: #ffffff !important;
+}
+
+/* Optional: change placeholder text */
+.bpComposerInput::placeholder {
+  color: #cccccc !important;
+}
+.bpMessageListMarqueeAvatarFallback::after{
+     content: "AQs";
+}

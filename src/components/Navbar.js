@@ -101,6 +101,17 @@ function NavBar() {
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item> */}
+            <Nav.Item>
+
+              <Nav.Link
+                as={Link}
+                to="/faqs"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> FAQs
+              </Nav.Link>
+            </Nav.Item>
+
 
             <Nav.Item className="fork-btn">
               <Button
