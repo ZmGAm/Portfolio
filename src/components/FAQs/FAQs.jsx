@@ -5,69 +5,72 @@ import Particle from '../Particle'
 import Prime from '../models/Prime'
 import Lottie from "lottie-react";
 import Meta from "../../Assets/Meta.json";
-import Typewriter from "typewriter-effect";
+import Typing from './Typing';
+import { motion } from 'framer-motion';
 const FAQs = () => {
   return (
-    <Container fluid className='about-section'>
+
+    <Container
+      fluid className="about-section"
+    >
       <Particle />
-      <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
-              <Col md={7} style={{ justifyContent: "left"}}>
-            <Lottie
-              animationData={Meta}
-              loop={true}
-              autoplay={true}
-              style={{height:'10vh',width:'10vw',margin:'auto'}}
-            />
-            </Col>
-            <Col md={7} style={{ justifyContent: "center"}}>
-             <div style={{ paddding: 50,height:'20vh', textAlign: "left" }}>
+      <Row
+        style={{ justifyContent: "center", padding: "10px" }}
+      >
+        <Col
+          md={6}
+          style={{
+            height: "150vh",
+            juystifyContent: 'center',
+          }}
+          className="about-img"
+        >
 
-              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                i'm
-                <strong className="purple"> your </strong>
-              </h1>
-              <Typewriter
-                options={{
-                  strings: [
-                    "Samart AI assistant",
-                    "Conversational  Chatbot",
-                    "AI-powered Knowledge Base Trained",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                  deleteSpeed: 50,
-                }}
+          <Prime />
+        </Col>
+        <Col
+          md={5}
+          style={{
+            justifyContent: "center",
+            paddingTop: "10px",
+            paddingBottom: "50px",
+
+          }}
+        >
+          <Row style={{ justifyContent: "left", paddingBottom: "70px" }}>
+
+            <Col md={3} style={{ justifyContent: "left" }}>
+              <Lottie
+                animationData={Meta}
+                loop={true}
+                autoplay={true}
+                style={{ height: '10vh', width: '10vw', margin: 'auto' }}
               />
-            </div>
             </Col>
-          
-           
-           
+            <Col md={3} style={{ justifyContent: "center" }}>
+        
 
-            <FAQs1 />
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
-            <Prime />
-          </Col>
-        </Row>
+              <div style={{ paddding: 50, height: '20vh', textAlign: "left" }}>
 
-      </Container>
+                <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                  I'M
+                  <strong className="purple"> Your </strong>
+                </h1>
+                <Typing />
+
+
+              </div>
+            </Col>
+          </Row>
+
+
+          <FAQs1 />
+        </Col>
+
+      </Row>
 
     </Container>
+
   )
 }
 

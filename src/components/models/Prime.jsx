@@ -321,17 +321,18 @@ const Prime = () => {
   }, []);
 
   return (
-    <Container style={{ width: '50vw', height: '100vh' }}>
-      <iframe
+    <iframe
         ref={iframeRef}
         title="Sketchfab Viewer"
-        width="100%"
-        height="100%"
+        // width="600px"
+        // height="400px"
         frameBorder="0"
-        allow="autoplay; fullscreen; xr-spatial-tracking"
+        allow="autoplay; fullscreen; xr-spatial-tracking,cemera"
         allowFullScreen
-      />
-    </Container>
+        style={{height:'70%', width:'100%', justifyContent:'center', alignItems:'center', background:'transparent'}}
+
+      /> 
+    
   );
 };
 

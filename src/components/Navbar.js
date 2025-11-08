@@ -12,6 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineQuestionCircle,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -108,7 +109,7 @@ function NavBar() {
                 to="/faqs"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> FAQs
+                <AiOutlineQuestionCircle style={{ marginBottom: "2px" }} /> FAQs
               </Nav.Link>
             </Nav.Item>
 
