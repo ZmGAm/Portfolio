@@ -37,7 +37,7 @@ const FAQs = () => {
 
           }}
         >
-          <Row style={{ justifyContent: "left", paddingBottom: "70px" }}>
+          <Row style={{ justifyContent: "left", paddingBottom: "180px" }}>
 
             <Col md={3} style={{ justifyContent: "left" }}>
               <Lottie
@@ -51,7 +51,7 @@ const FAQs = () => {
         
 
               <div style={{ paddding: 50, height: '20vh', textAlign: "left" }}>
-
+ 
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                   I'M
                   <strong className="purple"> Your </strong>
