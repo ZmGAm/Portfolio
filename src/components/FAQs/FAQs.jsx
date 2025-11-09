@@ -4,7 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Particle from '../Particle'
 import Prime from '../models/Prime'
 import Lottie from "lottie-react";
-import Meta from "../../Assets/Meta.json";
+// import Meta from "../../Assets/Meta.json";
+import Chatgpt from "../../Assets/Chatgpt.json";
 import Typing from './Typing';
 import { motion } from 'framer-motion';
 const FAQs = () => {
@@ -41,7 +42,7 @@ const FAQs = () => {
 
             <Col md={3} style={{ justifyContent: "left" }}>
               <Lottie
-                animationData={Meta}
+                animationData={Chatgpt}
                 loop={true}
                 autoplay={true}
                 style={{ height: '10vh', width: '10vw', margin: 'auto' }}
