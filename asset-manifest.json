@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.3e3fcbe6.css",
-    "main.js": "/Portfolio/static/js/main.23f9a548.js",
+    "main.js": "/Portfolio/static/js/main.906379f0.js",
     "static/js/453.ac9b7e2a.chunk.js": "/Portfolio/static/js/453.ac9b7e2a.chunk.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.0ebb76d36ae99bc7b235.png",
     "static/media/data_base.png": "/Portfolio/static/media/data_base.8a49b3bbd203bc92da46.png",
     "static/media/intership.png": "/Portfolio/static/media/intership.06bfcafd258ebe3bdfb2.png",
     "static/media/carpooling.png": "/Portfolio/static/media/carpooling.77315faca4ce5aa7edbc.png",
     "static/media/faceaging.png": "/Portfolio/static/media/faceaging.2e41af47949de92458c2.png",
-    "static/media/zohaib_resume.pdf": "/Portfolio/static/media/zohaib_resume.bf86440a421c93238704.pdf",
+    "static/media/zohaib_resume.pdf": "/Portfolio/static/media/zohaib_resume.8ede23f9b6d66b2877a1.pdf",
     "static/media/logo.png": "/Portfolio/static/media/logo.80679caa18eee44e4bc3.png",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "index.html": "/Portfolio/index.html",
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "main.3e3fcbe6.css.map": "/Portfolio/static/css/main.3e3fcbe6.css.map",
-    "main.23f9a548.js.map": "/Portfolio/static/js/main.23f9a548.js.map",
+    "main.906379f0.js.map": "/Portfolio/static/js/main.906379f0.js.map",
     "453.ac9b7e2a.chunk.js.map": "/Portfolio/static/js/453.ac9b7e2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e3fcbe6.css",
-    "static/js/main.23f9a548.js"
+    "static/js/main.906379f0.js"
   ]
 }
