@@ -35,22 +35,40 @@ My personal portfolio <a href="https://zmgam.github.io/Portfolio" target="_blank
 
 This project was built using these technologies.
 
+Core technologies
 - React.js
 - Node.js
 - Express.js
-- CSS3
 - VsCode
-- Boot strap 
-- Lottie react 
+
+UI and Stylling 
+- Bootstrap
+- CSS3
+- React Icons
+
+Animation and Graphics
+- Lottie
+- React TSParticles
+- three.js
+- Typewriter  Effect
+- Sketchfab Viewer API
+
+APIs
+- Botpress Webchat
+- React PDF
+- React Github Calender
+
 <!-- - Vercel -->
 
 ## Features
+
+**🤖📘 AI Powered smart assistant for FAQs .which train on personal data like resume** 
 
 **📖 Multi-Page Layout**
 
 **🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
-**🎬 Lottie  for animation like laptop and  programming avatar**
+**🎬 Lottie  for animated componnets or modules like laptop and  programming avatar**
 
 **📱 Fully Responsive**
 
@@ -67,6 +85,7 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
+3. Goto BotPress, Create your pernsoel AI agent, and train it. Then you can use it as your pseronale is ai assistent. After just integrate your client ID in this project.  
 
 ## Usage Instructions
 
