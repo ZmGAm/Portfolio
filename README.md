@@ -86,7 +86,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
-3. Goto BotPress, Create your pernsoel AI agent, and train it. Then you can use it as your pseronale is ai assistent. After just integrate your client ID in this project.  
+3. Goto BotPress, Create your pernsoel AI agent, and train it. Then you can use it as your pseronale ai assistent. After just integrate your client ID in this project.  
 
 ## Usage Instructions
 
